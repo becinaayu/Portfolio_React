@@ -15,7 +15,7 @@ function App() {
                 <NavBar />
                 <div className="container mx-auto mt-24">
                     <Routes>
-                        <Route path="/Portfolio_React" element={<MainPage />} />
+                        <Route path="/" element={<MainPage />} />
                         <Route path="/about" element={<About />} />
                         <Route path="/projects" element={<Projects />} />
                         <Route path="/contact" element={<Contact />} />
